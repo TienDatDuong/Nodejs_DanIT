@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",// dich code cua ts sang version nào cua js
+    "esModuleInterop": true, // cho phép import các module ES6 trong CommonJS
+    "target": "es6", // phiên bản của JavaScript mà TypeScript sẽ biên dịch sang
+    "sourceMap": true, // tạo file .map để dễ dàng debug code TypeScript trong trình duyệt
+    "skipLibCheck": true, // bỏ qua kiểm tra kiểu trong các file định nghĩa thư viện
+    "outDir": "dirt", // thư mục đầu ra cho các file JavaScript đã biên dịch
+    "rootDir": "src"
+  }
+}
